@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    color: rgb(19, 19, 19);
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+.topo{
+    background-color: #969494b0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 5p 15px rgba(255, 252, 252, 0.15);
+     display: flex;
+    align-items: center;
+    
+
+}
+
+.navegacao{
+        display: flex;
+        align-items: center;
+        gap: 400px;
+        min-height: 10px;
+        
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: bolder;    
+    letter-spacing: 7px;
+    text-align: left;
+    
+   
+
+}
+
+.logo a{
+    text-align: right;
+}
+.logo h1{
+    font-size: 1.5em;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    text-align: left;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 1px;
+
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+menu a:hover {
+    background-color: #006aff;
+
+}
+
+.preencher-campo,button,p{
+    
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco{
+    display: flex;
+    
+}
+.quadrado input{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+.quadrado textarea{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.campo-fomulario{
+    text-align: center;
+}
+
+.campo-fomulario:placeholder{
+    color: gray;
+    font-style: italic;
+}
+.rodape{
+    position: fixed;
+   
+    
+}
+
+.centralizar{ 
+    justify-content: center;
+    display: flex;
+    
+}
